@@ -7,6 +7,14 @@ Please see [Node-RSA](https://github.com/rzcoder/node-rsa) for original descript
 ### 1.0.1
 * Modified original library to enable decryption by public key and encryption by private key. 
 
+- NodeRSA.prototype.encrypt
+
+Added an isPrivateKey param in the function that should be set to true if a private key is to be used for encryption.
+
+- NodeRSA.prototype.decrypt
+
+Added an isPublicKey param in the function that should be set to true if a public key is to be used for decryption.
+
 ## License
 
 Copyright (c) 2014  rzcoder<br/>
